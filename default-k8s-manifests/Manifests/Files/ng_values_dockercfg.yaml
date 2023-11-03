@@ -5,7 +5,8 @@ image: <+artifact.image>
 dockercfg: <+artifact.imagePullSecret>
 
 createNamespace: true
-namespace: <+infra.namespace>
+namespace: <+pipeline.stages.k8s.spec.execution.steps.ShellScript_3.output.outputVariables.test>
+
 
 # Service Type allow you to specify what kind of service you want.
 # Possible values for ServiceType are:
