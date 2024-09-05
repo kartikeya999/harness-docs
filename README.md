@@ -1,4 +1,4 @@
-# Harness Docs Repo
+# Harness Docs Repos
 
 This repo (`harness-docs`) contains examples for Harness quickstarts and other documentation.
 
